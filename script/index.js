@@ -56,7 +56,6 @@ const loadFromJSON = (rootEl, url = []) =>
         .then(text => xmlToJson(text))
         .then(json => JSON.parse(json))
         .then(data => {
-          console.log(JSON.stringify(data))
           let html = ``
           let items = data.rss.channel.item
           let owner = data.rss.channel.title
