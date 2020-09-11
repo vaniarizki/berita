@@ -73,9 +73,8 @@ const loadFromJSON = (rootEl, url = []) =>
             link = item.link
             html += newsItem(owner, title, description, link)
           })
-          return html
+          rootEl.innerHTML += html
         })
-        .then(html => rootEl.innerHTML += html)
     }
     )
   )
