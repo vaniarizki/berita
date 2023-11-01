@@ -1,7 +1,7 @@
 const RSS_URL = [
   "https://www.antaranews.com/rss/ekonomi",
   "https://www.cnnindonesia.com/nasional/rss",
-  "http://rss.detik.com/index.php/detikcom_nasional",
+  "https://rss.detik.com/index.php/detikcom_nasional",
   "https://www.vice.com/id_id/rss"
 ]
 const feedArea = document.getElementById("feedArea")
